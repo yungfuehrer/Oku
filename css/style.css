@@ -11,7 +11,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
-  color:  #FFFFFF;
+  color:  #FEFEFE;
 }   
 
 .header{
@@ -73,4 +73,85 @@ body{
 
 .btn:first-child{
   padding: 0 33px;
+}
+
+.banner{
+  padding: 65px 44px 0 63px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.banner__wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.banner__text{
+  width: 632px;
+  padding: 0 195px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.banner-h1{
+  font-size: 48px;
+  line-height: 62px;
+  letter-spacing: 0.288px;
+  color: #000000;
+}
+
+.banner-p,
+.banner-link{
+  font-family: 'Inter';
+  font-size: 13px;
+  line-height: 20px;
+  color: #46474E;
+}
+
+.banner-link:hover{
+  color: #000000;
+}
+
+.banner__text .btn{
+  padding: 1px 48px;
+  margin: 29px 0 23px;
+  width: 247px;
+}
+
+.banner__add{
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.add-p{
+  font-family: 'Inter';
+  font-size: 14px;
+  line-height: 14px;
+  color: #131314;
+  margin-right: 16px;
+}
+
+.add-link{
+  padding: 0 24px 0 16px;
+  border-left: 1px solid #E8E8E9;
+  border-right: 1px solid #E8E8E9;
+  font-family: 'Inter';
+  font-size: 13px;
+  line-height: 14px;
+  color: #131314;
+
+}
+
+.crossed__lines{
+  margin-left: 10px;
+  cursor: pointer;
 }
