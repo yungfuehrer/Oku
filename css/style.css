@@ -148,10 +148,112 @@ body{
   font-size: 13px;
   line-height: 14px;
   color: #131314;
-
 }
 
 .crossed__lines{
   margin-left: 10px;
   cursor: pointer;
+}
+
+.wide-thin__card-h{
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: 0.216px;
+  color: #000000;
+  width: 476px;
+  margin: 65px 0 61px;
+}
+
+.thin-card-p{
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  color: #46474E;
+}
+.opportunities{
+  padding: 0 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.wide__card, .thin-card__wrap{
+  position: relative;
+  background: #F3F4F4;
+  border-radius: 8px;
+  padding: 0 103px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.two-thin-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.card-sign{
+  position: absolute;
+  top: -25px;
+}
+
+.two-thin-cards:nth-of-type(2) .card-sign {
+  left: -25px;
+  top: -25px;
+}
+
+.two-thin-cards:nth-of-type(4) .card-sign{
+  right: -25px;
+  top: -25px;
+}
+
+.two-thin-cards:nth-of-type(2) .thin-card__wrap:first-child{
+  padding: 0 94px;
+}
+
+.two-thin-cards:nth-of-type(2) .thin-card__wrap:first-child .wide-thin__card-h{
+  margin: 63px 0 17px;
+  width: 332px;
+}
+
+.two-thin-cards:nth-of-type(2) .thin-card__wrap:first-child .thin-card-p{
+  margin: 0 0 88px;
+  width: 432px;
+}
+
+.two-thin-cards:nth-of-type(2) .thin-card__wrap:last-child{
+  padding: 0 95px;
+  flex-direction: column-reverse;
+}
+
+.two-thin-cards:nth-of-type(2) .thin-card__wrap:last-child .wide-thin__card-h{
+  margin: 65px 0 17px;
+  width: 303px;
+}
+
+.two-thin-cards:nth-of-type(2) .thin-card__wrap:last-child .thin-card-p{
+  margin: 0 0 34px;
+  width: 429px;
+}
+
+.two-thin-cards:nth-of-type(4) .thin-card__wrap:first-child{
+  padding: 0 120px;
+}
+
+.two-thin-cards:nth-of-type(4) .thin-card__wrap:first-child .wide-thin__card-h{
+  width: 238px;
+}
+
+.two-thin-cards:nth-of-type(4) .thin-card__wrap:last-child{
+  padding: 0;
+}
+
+.two-thin-cards:nth-of-type(4) .thin-card__wrap:last-child .wide-thin__card-h{
+  width: 416px;
 }
